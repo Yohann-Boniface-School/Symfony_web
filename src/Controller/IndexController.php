@@ -22,7 +22,7 @@ class IndexController extends AbstractController
     }
 
     /**
-     * @Route("/about")
+     * @Route("/about", name="about")
      */
     public function about(): Response
     {
