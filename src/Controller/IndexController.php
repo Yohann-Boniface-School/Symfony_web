@@ -5,10 +5,10 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class LuckyController extends AbstractController
+class IndexController extends AbstractController
 {
     /**
-     * @Route("/", name="app_lucky_number")
+     * @Route("/")
      */
     public function number(): Response
     {
@@ -17,6 +17,17 @@ class LuckyController extends AbstractController
         return $this->render(
             'pages/index.html.twig', [
                 'number' => $number
+            ]
+        );
+    }
+
+    /**
+     * @Route("/about")
+     */
+    public function about(): Response
+    {
+        return $this->render(
+            'pages/about.html.twig', [
             ]
         );
     }
