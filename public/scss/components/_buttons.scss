@@ -1,0 +1,13 @@
+@use "../abstracts";
+
+.button {
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  background-color: abstracts.$secondary-color-400;
+  min-width: 30%;
+
+  &:hover {
+    background-color: abstracts.$secondary-color-500;
+  }
+}

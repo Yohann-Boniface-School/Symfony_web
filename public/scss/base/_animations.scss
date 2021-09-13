@@ -1,0 +1,24 @@
+@use "../abstracts";
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+main > * {
+  animation: slide-up 1s abstracts.$transition;
+}
+
+main > h1 {
+  animation: slide-up 0.8s abstracts.$transition;
+}
+
+main > .card {
+  animation: slide-up 1.2s abstracts.$transition;
+}

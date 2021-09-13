@@ -1,0 +1,9 @@
+@use "../abstracts";
+
+.card {
+  margin: 20px 0;
+  width: clamp(240px, calc(100% - 40px), 1200px);
+  background-color: abstracts.$primary-color-500;
+  border-radius: 5px;
+  padding: 10px 20px;
+}

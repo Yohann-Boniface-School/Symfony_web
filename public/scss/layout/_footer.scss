@@ -1,0 +1,10 @@
+@use "../abstracts";
+
+footer {
+  height: 65px;
+
+  .github-icon {
+    fill: abstracts.$primary-color-600;
+  }
+}
+

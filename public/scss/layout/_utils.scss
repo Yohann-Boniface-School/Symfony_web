@@ -1,0 +1,32 @@
+.grid {
+  display: grid;
+  place-items: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-flow: row wrap;
+}
+
+.container {
+  padding: 20px 0;
+  width: 90%;
+  max-width: 1520px;
+}
+
+.long-container {
+  padding: 20px 0;
+  width: 100%;
+}
+
+.flat {
+  padding: 0
+}
+
+.splash {
+  text-align: center;
+  font-size: 1em;
+  width: 80%;
+}
