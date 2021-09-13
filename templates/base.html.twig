@@ -9,11 +9,13 @@
     <title>Document</title>
 
     {% block links %}
-        <link rel="stylesheet" href="{{ asset('style.css') }}">
+        <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
     {% endblock %}
 </head>
 <body>
-    {% block content %}
-    {% endblock %}
+{% block content %}
+{% endblock %}
 </body>
+{% block javascripts %}
+{% endblock %}
 </html>
