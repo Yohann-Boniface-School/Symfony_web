@@ -19,6 +19,7 @@ body {
 }
 
 header, footer {
+  z-index: 1;
   box-shadow: 0 0 0 6px;
   background-color: abstracts.$primary-color-500;
   width: 100%;
