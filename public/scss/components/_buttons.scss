@@ -1,7 +1,7 @@
 @use "../abstracts";
 
 .button {
-  color: white;
+  color: inherit;
   border-radius: 5px;
   text-align: center;
   background-color: abstracts.$secondary-color-400;

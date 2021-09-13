@@ -14,8 +14,8 @@
 }
 
 body {
-  color: abstracts.$primary-color-600;
   background-color: abstracts.$primary-color-400;
+  padding-bottom: 100px;
 }
 
 header, footer {
@@ -26,4 +26,15 @@ header, footer {
 
 main {
   min-height: calc(100vh - 130px);
+}
+
+a {
+  transition: all 0.3s ease-in-out;
+  color: abstracts.$secondary-color-400;
+  text-decoration: none;
+
+  &:hover {
+    font-weight: bold;
+    color: abstracts.$secondary-color-500;
+  }
 }

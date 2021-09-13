@@ -1,9 +1,17 @@
+@use "../abstracts";
+
+@font-face {
+  font-family: Pattaya;
+  src: url("/fonts/Pattaya-Regular.ttf");
+}
+
 @font-face {
   font-family: Poppins;
   src: url("/fonts/Poppins-Regular.ttf");
 }
 
 body {
+  color: abstracts.$text-color;
   font-size: clamp(12px, 1vw, 16px);
   font-family: 'Poppins', sans-serif;
 }
@@ -11,6 +19,6 @@ body {
 h1.title {
   font-weight: bold;
   font-size: 3em;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Pattaya', sans-serif;
   text-align: center;
 }
