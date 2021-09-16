@@ -27,4 +27,14 @@ class IndexController extends AbstractController
             ]
         );
     }
+
+    /**
+     * @Route("/contact", name="contact")
+     */
+    public function contact(): Response
+    {
+        return $this->render(
+            'pages/contact.html.twig'
+        );
+    }
 }
