@@ -11,8 +11,10 @@
 }
 
 body {
+  --font-size: 14px;
+
   color: abstracts.$text-color;
-  font-size: clamp(12px, 1vw, 16px);
+  font-size: var(--font-size);
   font-family: 'Poppins', sans-serif;
 }
 

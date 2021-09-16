@@ -6,18 +6,18 @@
 .flex {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   flex-flow: row wrap;
 }
 
 .container {
-  padding: 20px 0;
   width: 90%;
   max-width: 1520px;
 }
 
 .long-container {
   padding: 20px 0;
+  margin-bottom: 50px;
   width: 100%;
 }
 

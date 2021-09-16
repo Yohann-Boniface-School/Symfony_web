@@ -1,7 +1,10 @@
 @use "../abstracts";
 
 footer {
-  height: 65px;
+
+  a {
+    display: contents;
+  }
 
   .github-icon path {
     fill: abstracts.$primary-color-600;
