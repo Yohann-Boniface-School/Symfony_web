@@ -9,6 +9,7 @@ class IndexController extends AbstractController
 {
     /**
      * @Route("/")
+     * @Route("/{_locale}/")
      */
     public function number(): Response
     {
@@ -19,6 +20,7 @@ class IndexController extends AbstractController
 
     /**
      * @Route("/about", name="about")
+     * @Route("/about/{_locale}", name="about")
      */
     public function about(): Response
     {
@@ -30,6 +32,7 @@ class IndexController extends AbstractController
 
     /**
      * @Route("/contact", name="contact")
+     * @Route("/contact/{_locale}", name="contact")
      */
     public function contact(): Response
     {

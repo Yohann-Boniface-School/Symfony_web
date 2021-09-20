@@ -1,9 +1,9 @@
 <header class="grid">
     <div class="container flex">
-        <a href="/">Home</a>
+        <a href="/">{{ 'home' | trans }}</a>
         <nav class="navbar flex">
-            <a href="{{ path('about') }}">About</a>
-            <a href="{{ path('contact') }}">Contact</a>
+            <a href="{{ path('about') }}">{{ 'about' | trans }}</a>
+            <a href="{{ path('contact') }}">{{ 'contact' | trans }}</a>
         </nav>
     </div>
 </header>

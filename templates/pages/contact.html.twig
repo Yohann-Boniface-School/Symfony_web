@@ -1,15 +1,15 @@
 {# templates/pages/index.html.twig #}
 {% extends 'layouts/base.html.twig' %}
 
-{% block title %}About{% endblock %}
+{% block title %}{{ 'about' | trans }}{% endblock %}
 
 {% block content %}
-    <h1 class="title">Contact</h1>
+    <h1 class="title">{{ 'contact' | trans }}</h1>
 
     <div class="flex-wrapper">
         <section class="card">
             <p>
-                <a href="mailto:contact@yohannboniface.dev">Mail me</a>
+                <a href="mailto:contact@yohannboniface.dev">{{ 'mail_me' | trans }}</a>
             </p>
         </section>
         <section class="card">
