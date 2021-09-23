@@ -5,7 +5,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class IndexController extends AbstractController
+class GlobalController extends AbstractController
 {
     /**
      * @Route("/")
@@ -14,7 +14,7 @@ class IndexController extends AbstractController
     public function number(): Response
     {
         return $this->render(
-            'pages/index.html.twig'
+            'pages/global/index.html.twig'
         );
     }
 
@@ -25,7 +25,7 @@ class IndexController extends AbstractController
     public function about(): Response
     {
         return $this->render(
-            'pages/about.html.twig', [
+            'pages/global/about.html.twig', [
             ]
         );
     }
