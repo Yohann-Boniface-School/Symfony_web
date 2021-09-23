@@ -15,11 +15,10 @@
 <body class="flat">
 {% include 'partials/header.html.twig' %}
 <main class="container flat grid">
-    {% block main %}
-        <div class="long-container flat grid">
-            {% block content %}
-            {% endblock %}
-        </div>
+    {% block body %}
+    <div class="long-container flat grid">
+        {% block content %}{% endblock %}
+    </div>
     {% endblock %}
 </main>
 {% include 'partials/footer.html.twig' %}
